@@ -18,7 +18,7 @@ if exists("g:loaded_rst_tables_ftplugin")
 endif
 let loaded_rst_tables_ftplugin = 1
 
-python << endpython
+python3 << endpython
 import vim
 import re
 import textwrap
